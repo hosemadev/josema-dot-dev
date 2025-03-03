@@ -38,7 +38,7 @@ onBeforeUpdate(() => {
   <div class="main">
     <ArticleInfo />
     <!-- In the style we check if we are in mobile and in the index.md to reduce the top margin and make it better on mobile devices -->
-    <div class="group" :style="route.data.title === 'José María Ruiz Laguna' && isMobile ? 'margin-top: 0px' : ''">
+    <div class="group" :style="route.data.title === 'José María Ruiz Laguna' ? 'margin-top: 0px' : ''">
       <div v-if="route.data.title != 'José María Ruiz Laguna'" :class="isLongTitle ? 'long-title background' : 'background'">
         {{ route.data.title }}
       </div>
