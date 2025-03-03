@@ -21,12 +21,12 @@ comments: false
 
 ***
 - ### Numier TPV (2020 - 2024)
-  #### ***Desarrollador fullstack junior*** - (2021 - 2024)
+  #### ***Desarrollador fullstack junior*** (2021 - 2024)
     **Lideré** pro activamente en el desarrollo de diversas aplicaciones web:
     - Numier Pedidos y Carta Digital
     - SelfiPay Pago QR
     - SelfiPay Pasarela de pago
-  #### ***Desarrollador en prácticas académicas*** - (2020)
+  #### ***Desarrollador en prácticas académicas*** (2020)
     Ayudé en el **mantenimiento** y **arreglo** de diversas aplicaciones web.
 
 ![Vue.js Badge](https://img.shields.io/badge/Vue.js-4FC08D?logo=vuedotjs&logoColor=fff&style=for-the-badge)
