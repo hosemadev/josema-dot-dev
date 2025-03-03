@@ -8,13 +8,7 @@ import { useRoute } from 'vitepress';
 import{ ref, onBeforeMount, onBeforeUpdate } from 'vue';
 
 const route = useRoute();
-const isMobile = ref(false)
 const isLongTitle = ref(false);
-
-const checkMobile = () => {
-  isMobile.value = window.innerWidth <= 768
-  checkLongTitle();
-}
 
 const checkLongTitle = () => {
   if (route.data.title.length >= 15) {
@@ -24,7 +18,7 @@ const checkLongTitle = () => {
   }
 }
 onBeforeMount(() => {
-  checkMobile()
+  checkLongTitle();
 })
 
 onBeforeUpdate(() => {
